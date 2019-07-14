@@ -1,5 +1,4 @@
 import React from 'react';
-import { connect } from 'react-redux';
 
 const Header = () => {
   return (
@@ -30,7 +29,7 @@ class Main extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="test-app">
         <h4>{this.state.stuff}</h4>
         <button onClick={this.handleButtonClick}>Click Me</button>
       </div>
