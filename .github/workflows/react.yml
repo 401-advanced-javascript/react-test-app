@@ -19,4 +19,7 @@ jobs:
       run: npm install
     - name: Deploy to GH Pages
       run: |
+        git config --global user.email "highlander.44@gmail.com"
+        git config --global user.name "johncokos"
+        git remote set-url origin https://e103558734e5b145ed4790637b389260ee6a8f3d@git@github.com:401-advanced-javascript/react-test-app.git
         npm run deploy
