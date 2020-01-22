@@ -21,5 +21,6 @@ jobs:
       run: |
         git config --global user.email "highlander.44@gmail.com"
         git config --global user.name "johncokos"
-        git remote set-url origin https://e103558734e5b145ed4790637b389260ee6a8f3d@github.com/401-advanced-javascript/react-test-app.git
+        git config --global github.token "e103558734e5b145ed4790637b389260ee6a8f3d"
+        git remote set-url origin https://github.com/401-advanced-javascript/react-test-app.git
         npm run deploy
